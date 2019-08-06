@@ -1,0 +1,9 @@
+[05-May-2019 03:09:44 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 26
+[05-May-2019 03:22:14 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 26
+[08-May-2019 23:50:01 America/New_York] PHP Notice:  Undefined index: artistEmail in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 14
+[08-May-2019 23:50:01 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 27
+[08-May-2019 23:52:41 America/New_York] PHP Notice:  Undefined index: artistEmail in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 14
+[08-May-2019 23:52:41 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 27
+[09-May-2019 00:02:21 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 27
+[15-May-2019 00:42:33 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 27
+[21-May-2019 16:28:25 America/New_York] PHP Warning:  A non-numeric value encountered in /home/lavatven/public_html/artemis/commissions/sendCommission.php on line 27

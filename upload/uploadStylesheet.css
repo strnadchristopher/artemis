@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2017, 5:22:12 PM
+    Author     : Chris
+*/
+
+html{
+    overflow: hidden;
+}
+
+html, body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width:100%;
+    height:100%;
+    font-family: 'Open Sans', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:row-reverse;
+    display:none;
+}
+
+#uploadForm{
+    width:100%;
+    height:100%;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#imageSelect{
+    width:200%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#previewImageDiv{
+    width:100%;
+    height:100%;
+    margin: auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items:center;
+}
+
+.is-dragover{
+    transition: 500ms ease-in-out;
+    border: 10px solid black;
+}
+
+#previewImage{
+    max-width:100%;
+    max-height:90%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.custom-file-upload{
+    padding: 15px;
+    cursor: pointer;
+    height: auto;
+    display: block;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+#fileUpload{
+    display: none;
+}
+
+#selects{
+    width:100%;
+    height:100%;
+    border-right: black solid 1px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms ease-in-out;
+}
+
+#selects *{
+    width: 75%;
+}
+
+#uploadingText{
+    display: none;
+}
+
+.button{
+    width:auto;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+    cursor:pointer;
+    border:1px solid black;
+    border-radius:15px;
+    background:none;
+    box-sizing:border-box;
+    transition: 250ms ease-in-out;
+    text-decoration:none;
+}
+
+.button i{
+    font-size:15px;
+    width:auto !important;
+    margin:0;
+}
+
+#tweetButton{
+    background:#0084b4;
+    color:white;
+}
+
+#pinBox{
+    margin-bottom:30px;
+}
+
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.button:hover{
+    border-color: red;
+}
+
+
+#submitButton{
+    display: none;
+}
+
+#chooseAndSubmit{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+#chooseAndSubmit label{
+    flex-grow:1;
+}

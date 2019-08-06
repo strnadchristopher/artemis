@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2017, 5:22:12 PM
+    Author     : Chris
+*/
+
+html{
+    overflow: hidden;
+}
+
+html, body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width:100%;
+    height:100%;
+    font-family: 'Open Sans', serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction:row-reverse;
+    display:none;
+}
+
+#deleteForm{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+
+.buttonRow{
+    display:flex;
+    flex-direction: row;
+}
+
+.buttonRow>.button{
+    margin:5px;
+}
+
+#imageSelect{
+    width:200%;
+    height:100%;
+    border-left: black solid 1px;
+    display:flex;
+    flex-direction: column;
+}
+
+#previewImageDiv{
+    width:100%;
+    height:100%;
+    margin: auto;
+    display: flex;
+}
+
+#previewImage{
+    max-width:100%;
+    max-height:100%;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: none;
+}
+
+.custom-file-upload{
+    padding: 15px;
+    cursor: pointer;
+    height: auto;
+    display: block;
+    border-top: 1px solid #ccc;
+    background: white;
+}
+
+#fileUpload{
+    display: none;
+}
+
+#selects{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#selects *{
+}
+
+.button{
+    width:auto;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 5px;
+    cursor:pointer;
+    border:1px solid black;
+    border-radius:15px;
+    background:none;
+    box-sizing:border-box;
+    transition: 250ms ease-in-out;
+    text-decoration:none;
+}
+
+.button i{
+    font-size:15px;
+    width:auto !important;
+    margin:0;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color:black;
+}
+
+.button:hover{
+    border-color: red;
+}
+
+#uploadingText{
+    display: none;
+}
+
+#submitButton{
+    display:none;
+}
+
+#galleryGrid{
+    width:100%;
+    height:100%;
+    overflow-y: scroll;
+}
+
+
+h4{
+    margin:30px;
+}
+
+
+.imageWrapper{
+    width:auto;
+    display:inline-block;
+}
+
+#galleryGrid *{
+    display: inline-block;
+    border: black solid 2px;
+    height:40vh;
+    width: auto;
+    margin: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+
+.section{
+    width:100%;
+    height:100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#sectionHeader{
+    text-align: center;
+    padding-left: 20px;
+    background: peachpuff;
+    width: 100%;
+    font-size: 5vh;
+}

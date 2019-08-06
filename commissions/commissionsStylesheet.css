@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 8, 2019, 11:30:10 PM
+    Author     : Chris
+*/
+
+body{
+    background: url('../cBackground.png');
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+
+#commissionInfo{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:auto;
+}
+
+.infoPanel{
+    width:85%;
+    height:85%;
+    margin: auto;
+    padding: 16px 16px 16px 16px;
+    background:white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(0,0,0,.5);
+    color:white;
+}
+
+#commissionTypes{
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    display:flex;
+}
+
+.type{
+    width:20%;
+    height: 100%;
+    display: block;
+    margin: auto;
+    padding: 0 0 0 0;
+    cursor:pointer;
+    overflow:hidden;
+}
+
+.type h2{
+    height:auto;
+    background:black;
+    color:white;
+    margin: 0 0 0 0;
+    padding: auto;
+    border-bottom: black 1px solid;
+}
+
+.imgDiv{
+    width: 100%;
+    height:100%;
+}
+
+.imgDiv{
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgDiv:nth-of-type(2){
+    background-image:url("art/sonicyref.png");
+}
+
+.imgDiv:nth-of-type(3){
+    background-image:url("art/panic.png");
+}
+
+.nextButton{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin: 32px auto 32px auto;
+}
+
+#descriptionPanel{
+    display:none;
+}
+
+#descriptionBoxDiv{
+    width: 80%;
+    height: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+#descriptionBox{
+    width:100%;
+    height:100%;
+    margin: auto;
+    border: none;
+    overflow: auto;
+    outline: none;
+    display:block;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    position: static;
+}
+
+#refPanel{
+    display:none;
+}
+
+#refBoxDiv{
+    width: 80%;
+    height: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+#refBox{
+    width:100%;
+    height:100%;
+    margin: auto;
+    border: none;
+    overflow: auto;
+    outline: none;
+    display:block;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+    position: static;
+}
+
+#sendPanel{
+    display:none;
+}
+
+#emailBoxDiv{
+    width: 80%;
+    height: 70%;
+    margin:auto;
+    text-align: center;
+}
+
+#emailBox{
+    width:100%;
+    height:100%;
+    margin: auto;
+    border: none;
+    overflow: auto;
+    outline: none;
+    display:block;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#sentPanel{
+    display:none;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+#backupMessage{
+    display:none;
+    width: 80%;
+    height: 70%;
+    margin:auto;
+    border: none;
+    overflow: auto;
+    outline: none;
+    text-align: center;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Open Sans', sans-serif;
+}
